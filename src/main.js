@@ -34,7 +34,7 @@ export default async ({ req, res, log, error }) => {
         },
         // extra options payload here
         data: req.body.data ?? {},
-        token: req.body.deviceToken,
+        tokens: req.body.deviceToken,
       });
       
       
